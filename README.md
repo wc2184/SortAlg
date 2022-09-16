@@ -1,3 +1,5 @@
+# SortAlg
+---
 ## Background
 [Progress Scorecard - William Chan](https://docs.google.com/spreadsheets/d/1CycAWjgwGE2KgE18jOjDsrCkxOyowdSeIYPTikBWjd8/edit#gid=80636460)
 
