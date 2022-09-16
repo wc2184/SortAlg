@@ -7,15 +7,15 @@ My project is SortAlg. I am making a sorting algorithm visualizer that shows how
 
 In SortAlg, users will be able to:
 
-Click a specific sorting algorithm button and then see the bar graph change live with the sorting algorithm.
-See the actual sorting algorithm implementation details in JavaScript code.
-Generate new Lists to sort to restart the visualization
-Change the speed of the algorithm and fast forward
+### Click a specific sorting algorithm button and then see the bar graph change live with the sorting algorithm.
+### See the actual sorting algorithm implementation details in JavaScript code.
+### Generate new Lists to sort to restart the visualization
+### Change the speed of the algorithm and fast forward
 
-In addition, this project will include:
-See graphs and trees as well 
-Depth First Search and Breadth First Search
-Change color of the bar graphs/tree nodes
+## In addition, this project will include:
+### See graphs and trees as well 
+### Depth First Search and Breadth First Search
+### Change color of the bar graphs/tree nodes
 
 ## Wireframes
 ![Wireframe](https://i.imgur.com/qDp9uHD.png)
