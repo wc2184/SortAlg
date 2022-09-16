@@ -1,5 +1,5 @@
 ## Background
-![Progress Scorecard William Chan](https://docs.google.com/spreadsheets/d/1CycAWjgwGE2KgE18jOjDsrCkxOyowdSeIYPTikBWjd8/edit#gid=80636460)
+[Progress Scorecard - William Chan](https://docs.google.com/spreadsheets/d/1CycAWjgwGE2KgE18jOjDsrCkxOyowdSeIYPTikBWjd8/edit#gid=80636460)
 
 My project is SortAlg. I am making a sorting algorithm visualizer that shows how certain algorithms work at sorting a list of unordered numbers into ordered numbers. It will use a bar graph whose height represents the value of a number. And the bars will switch around live to represent how the sorting algorithm works. We will have all types of algorithms like Merge Sort, Quick Sort, Bubble Sort, Binary Search, Breadth First Search, Depth First Search, and others. We will also display code for the sorting algorithm and show other details like time complexity.
 
