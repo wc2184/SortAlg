@@ -1,4 +1,58 @@
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
   \*************************************************************************************************************************************/
+html {
+  height: 100%;
+}
 
+.container {
+  height: 89vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.algorithms {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20vw 0 20vw;
+}
+
+.nav {
+  flex: 1 0 10%;
+}
+
+.title {
+  color: gray !important;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.maincontent {
+  height: 50vh;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  flex: 1 0 70%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myfooter {
+  padding-top: 5vh;
+  flex: 1 0 20%;
+}
+
+.algs {
+  width: 15vw;
+  margin: 20px;
+  margin-top: 0;
+}

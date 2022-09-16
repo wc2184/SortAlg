@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","mappings":"AAAA,WACE,a","sources":["webpack://9-15proj/./src/index.scss"],"sourcesContent":[".container {\n  display: flex;\n}\n"],"names":[],"sourceRoot":""}

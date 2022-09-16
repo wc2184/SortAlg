@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","mappings":"AAAAA,SAASC,iBAAiB,oBAAoB","sources":["webpack://9-15proj/./src/index.js"],"sourcesContent":["document.addEventListener(\"DOMContentLoaded\", () => {});\n"],"names":["document","addEventListener"],"sourceRoot":""}
