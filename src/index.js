@@ -13,10 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
   merge.addEventListener("click", (e) => {
     maincontent.textContent = "merge";
   });
-  quick.addEventListener("click", (e) => {
-    maincontent.textContent = "quick";
-    // updateData(20)
-  });
+  //   quick.addEventListener("click", (e) => {
+  //     maincontent.textContent = "quick";
+  //     // updateData(20)
+  //   });
   bubble.addEventListener("click", (e) => {
     maincontent.textContent = "bubble";
   });
