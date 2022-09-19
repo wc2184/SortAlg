@@ -29,8 +29,6 @@ html {
 }
 
 .maincontent {
-  height: 50vh;
-  width: 70vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,4 +53,8 @@ html {
   width: 15vw;
   margin: 20px;
   margin-top: 0;
+}
+
+.bar {
+  fill: steelblue;
 }
