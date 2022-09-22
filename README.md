@@ -40,7 +40,7 @@ Bulma for a few CSS styling(https://bulma.io/)
 
 ### Code Snippets:
 Event listeners for buttons
-```
+```javascript
   bubble.addEventListener("click", () => {
     console.log("main chartty", mainChart);
     bubbleSort(mainChart.data.datasets[0].data, mainChart);
@@ -58,7 +58,7 @@ Event listeners for buttons
 ```
 
 Makeshift promise to stall the sorting algorithm
-```
+```javascript
   const wait = (delay, ...args) =>
     new Promise((resolve) => setTimeout(resolve, delay, ...args));
   await wait(time);
