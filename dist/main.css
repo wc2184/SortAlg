@@ -38,6 +38,8 @@ canvas {
 
 .nav {
   flex: 1 0 10%;
+  margin-top: 5vh;
+  padding-bottom: -5px;
 }
 
 .title {
@@ -55,6 +57,7 @@ canvas {
 
 .body {
   flex: 1 0 70%;
+  padding-top: 5vh;
   border: 1px solid gray;
   border-radius: 5px;
   margin-bottom: 3vh;
@@ -72,11 +75,13 @@ canvas {
 }
 
 .speed {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .speedchild {
   padding-bottom: 10px !important;
+  font-size: large !important;
+  margin: 0 10px 0 10px;
 }
 
 .algs {
@@ -131,4 +136,55 @@ canvas {
 .arrow:hover {
   cursor: pointer;
   filter: brightness(140%);
+}
+
+.question {
+  cursor: pointer;
+}
+
+.mymodal,
+.questionmodal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 5; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.mymodal-content {
+  background-color: #fefefe;
+  margin: 10% 20vw 10% 20vw; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  overflow: auto; /* Enable scroll if needed */
+  width: 60vw; /* Could be more or less, depending on screen size */
+  height: 70vh;
+}
+
+/* The Close Button */
+.close,
+.closequestion {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus,
+.closequestion:hover,
+.closequestion:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.questioncontent {
+  font-size: 40px;
 }
