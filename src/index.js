@@ -10,16 +10,16 @@ document.addEventListener("DOMContentLoaded", () => {
   let merge = document.querySelector(".merge");
   let quick = document.querySelector(".quick");
   let bubble = document.querySelector(".bubble");
-  merge.addEventListener("click", (e) => {
-    maincontent.textContent = "merge";
-  });
+  //   merge.addEventListener("click", (e) => {
+  //     maincontent.textContent = "merge";
+  //   });
   //   quick.addEventListener("click", (e) => {
   //     maincontent.textContent = "quick";
   //     // updateData(20)
   //   });
-  bubble.addEventListener("click", (e) => {
-    maincontent.textContent = "bubble";
-  });
+  //   bubble.addEventListener("click", (e) => {
+  //     maincontent.textContent = "bubble";
+  //   });
   //   console.log("hi");
   //   barchart();
   //   barchart();

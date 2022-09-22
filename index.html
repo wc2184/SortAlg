@@ -11,31 +11,100 @@
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
-    <title>Project Name</title>
+    <title>SortAlg</title>
   </head>
 
   <body>
-    <section class="section">
-      <div class="container">
-        <div class="nav"><h1 class="title is-1 mytitle">Sample</h1></div>
-        <div class="body">
-          <div class="maincontent"><canvas class="chart">Hi</canvas></div>
-        </div>
-        <div class="myfooter">
-          <div class="algorithms">
-            <button class="algs merge button is-light is-large">
-              Merge Sort</button
-            ><button class="algs quick button is-light is-large">
-              Quick Sort</button
-            ><button class="algs bubble button is-light is-large">
-              Bubble Sort
+    <!-- <section class="section"> -->
+    <div class="container">
+      <div class="nav">
+        <h1 class="title is-1 mytitle">Sorting Algorithm Visualizer</h1>
+        <div class="dropdown">
+          <div class="dropdown-trigger">
+            <button
+              class="button"
+              aria-haspopup="true"
+              aria-controls="dropdown-menu2"
+            >
+              <img
+                src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png"
+              />
+              <span>&nbsp;&nbsp; Language</span>
+              <span class="icon is-small">
+                <i class="fas fa-angle-down" aria-hidden="true"></i>
+              </span>
             </button>
           </div>
+          <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+            <div class="dropdown-content">
+              <div class="dropdown-item" style="text-align: center">
+                <p><b>JavaScript</b></p>
+              </div>
+              <hr class="dropdown-divider" />
+              <div class="dropdown-item" style="text-align: center">
+                <p><b>Python</b></p>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- <h1 class="title">Hello World</h1>
+      </div>
+      <div class="body">
+        <div class="maincontent">
+          <canvas class="chart">Hi</canvas>
+        </div>
+      </div>
+      <div class="myfooter">
+        <div class="speed">
+          <button class="speedchild minus button is-normal is-danger">-</button>
+          <button class="speedchild plus button is-normal is-success">+</button>
+        </div>
+
+        <div class="algorithms">
+          <img
+            class="flip-horizontally arrow left-arrow"
+            src="https://img.icons8.com/plasticine/100/000000/arrow.png"
+            onclick="console.log('hi')"
+          />
+          <button
+            style="display: none"
+            class="algs alt-algs insertion button is-dark is-large is-danger"
+          >
+            Insertion Sort</button
+          ><button
+            style="display: none"
+            class="algs alt-algs selection button is-dark is-large is-danger"
+          >
+            Selection Sort</button
+          ><button
+            style="display: none"
+            class="algs alt-algs bogo button is-dark is-large is-danger"
+          >
+            Bogo Sort
+          </button>
+          <button
+            class="algs norm-algs merge button is-dark is-large is-danger"
+          >
+            Merge Sort</button
+          ><button
+            class="algs norm-algs quick button is-dark is-large is-danger"
+          >
+            Quick Sort</button
+          ><button
+            class="algs norm-algs bubble button is-dark is-large is-danger"
+          >
+            Bubble Sort
+          </button>
+          <img
+            class="right-arrow arrow"
+            src="https://img.icons8.com/plasticine/100/000000/arrow.png"
+            onclick="console.log('hi')"
+          />
+        </div>
+      </div>
+      <!-- <h1 class="title">Hello World</h1>
         <p class="subtitle">My first website with <strong>Bulma</strong>!</p>
         <button class="button is-success">button</button> -->
-      </div>
-    </section>
+    </div>
+    <!-- </section> -->
   </body>
 </html>

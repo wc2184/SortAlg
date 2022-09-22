@@ -1,14 +1,33 @@
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
   \*************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap);
+/*!*****************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss (1) ***!
+  \*****************************************************************************************************************************************/
 html {
   height: 100%;
+  background-color: bisque !important;
+  padding-top: 3vh !important;
+}
+
+.section {
+  height: 100%;
+}
+
+.mytitle {
+  font-family: "Inter";
 }
 
 .container {
   height: 89vh;
   display: flex;
   flex-direction: column;
+}
+
+canvas {
+  object-fit: contain;
+  width: 50vw;
 }
 
 .algorithms {
@@ -42,19 +61,74 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: lightblue;
 }
 
 .myfooter {
-  padding-top: 5vh;
   flex: 1 0 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.speed {
+  margin-bottom: 25px;
+}
+
+.speedchild {
+  padding-bottom: 10px !important;
 }
 
 .algs {
   width: 15vw;
   margin: 20px;
   margin-top: 0;
+  border: 2px solid black !important;
+}
+
+.button.algs:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button.algs:hover {
+  filter: brightness(140%);
 }
 
 .bar {
   fill: steelblue;
+}
+
+.dropdown {
+  margin-bottom: 5px;
+}
+
+.dropdown-item:hover {
+  cursor: pointer;
+}
+
+.flip-horizontally {
+  transform: scaleX(-1) scale(0.7);
+  position: relative;
+  top: -20px;
+  pointer-events: none;
+  filter: brightness(45%);
+}
+
+.flip-horizontally-on {
+  transform: scaleX(-1) scale(0.7);
+  position: relative;
+  top: -20px;
+}
+
+.right-arrow {
+  transform: scale(0.7);
+  position: relative;
+  top: -20px;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  filter: brightness(140%);
 }
