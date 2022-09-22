@@ -64,3 +64,19 @@ Makeshift promise to stall the sorting algorithm
   await wait(time);
 ```
 
+Async swap function
+```javascript
+const swap = async (arr, left, right, mainChart) => {
+  const wait = (delay, ...args) =>
+    new Promise((resolve) => setTimeout(resolve, delay, ...args));
+  const temp = arr[left];
+  arr[left] = arr[right];
+  arr[right] = temp;
+  //   console.log(mainChart);
+  //   mainChart.data.datasets[0].data = arr;
+  await wait(100);
+  mainChart.update();
+};
+```
+
+
