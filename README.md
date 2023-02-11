@@ -2,7 +2,7 @@
   SortAlg 
   <br/>
   <sub>Sorting Algorithm Visualizer.</sub>
-  <br/> <sub><sub>Now with 6 sorting algorithms</sub></sub>
+  <br/> <sub><sub>Now with 6 sorting algorithms!</sub></sub>
   <p></p><a href="https://wc2184.github.io/SortAlg/">Live Link</a>
  
 </h1>
