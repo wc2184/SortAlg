@@ -6,7 +6,7 @@ import { quicksort } from "./scripts/algs/quicksort";
 import { selectionSort } from "./scripts/algs/selectionsort";
 
 export function Chartjs() {
-  console.log("hi from charjs");
+  
 
   let canvasElement = document.querySelector(".chart");
   let muhLabels = [
@@ -88,11 +88,9 @@ export function Chartjs() {
       clearInterval(close);
     }, 200);
   });
-  dropdown.addEventListener("click", (e) => {
-    console.log(dropdown.classList.toggle("is-active"));
-  });
+  
   bubble.addEventListener("click", () => {
-    console.log("main chartty", mainChart);
+    
     bubbleSort(mainChart.data.datasets[0].data, mainChart);
     lastClicked = "bubble";
   });
@@ -110,11 +108,11 @@ export function Chartjs() {
     status = 1;
     if (status === 1) {
       Array.from(document.getElementsByClassName("alt-algs")).forEach((e) => {
-        // console.log(e, "hiee");
+        
         e.style.display = "block";
       });
       Array.from(document.getElementsByClassName("norm-algs")).forEach((e) => {
-        // console.log(e, "hiee");
+        
         e.style.display = "none";
       });
       right.style = `pointer-events: none;
@@ -127,11 +125,11 @@ export function Chartjs() {
     status = 0;
     if (status === 0) {
       Array.from(document.getElementsByClassName("alt-algs")).forEach((e) => {
-        // console.log(e, "hiee");
+        
         e.style.display = "none";
       });
       Array.from(document.getElementsByClassName("norm-algs")).forEach((e) => {
-        // console.log(e, "hiee");
+        
         e.style.display = "block";
       });
       right.style = ``;
@@ -144,17 +142,17 @@ export function Chartjs() {
   let bogo = document.querySelector(".bogo");
   insertion.addEventListener("click", (e) => {
     insertionSort(mainChart.data.datasets[0].data, mainChart);
-    console.log("insertion");
+    
     lastClicked = "insertion";
   });
   selection.addEventListener("click", (e) => {
     selectionSort(mainChart.data.datasets[0].data, mainChart);
-    console.log("selection");
+    
     lastClicked = "selection";
   });
   bogo.addEventListener("click", (e) => {
     bogosort(mainChart.data.datasets[0].data, mainChart);
-    console.log("bogo");
+    
     lastClicked = "bogo";
   });
   let ruby = document.querySelector(".ruby");
