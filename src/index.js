@@ -5,7 +5,7 @@ const { barchart } = require("./scripts/barchart");
 const { barchart2 } = require("./scripts/secondbar");
 
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("hifds");
+  
   let maincontent = document.querySelector(".maincontent");
   let merge = document.querySelector(".merge");
   let quick = document.querySelector(".quick");
